@@ -20,9 +20,8 @@
 					<h1>SCSS Shaders: 3D Effects for the Web</h1>
 				</section>
 				<section>
-					<section>Adobe, Apple and Opera jointly developed the CSS Shaders specification to generate high-quality video effects in the browser, and filters can be applied to any HTML element. They look familiar to anyone who has applied effects in a Flash animation editor, or to those who know the filter element from the Filter Effects 1.0 standard for SVG. It's the same here, only much better.</section>
 					<section>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/NZRqnohI3m4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						Adobe, Apple and Opera jointly developed the CSS Shaders specification to generate high-quality video effects in the browser, and filters can be applied to any HTML element. They look familiar to anyone who has applied effects in a Flash animation editor, or to those who know the filter element from the Filter Effects 1.0 standard for SVG. It's the same here, only much better.
 					</section>
 				</section>
 				<section>
@@ -42,7 +41,7 @@
 							<figcaption>
 								The developers of CSS Shaders borrowed a lot from the SVG filter specifications (Filter Effects 1.0). The main difference is that for the filter element they added the custom() function, through which you can specify arbitrary properties of the effects.
 							</figcaption>
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/3nenOv4w58Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<video width="560" height="315" src="./assets/video/Filter Effects 1.0.mp4" loop="loop"></video>
 						</figure>
 					</section>
 				</section>
@@ -81,20 +80,14 @@
 							<figcaption>
 								Thanks to custom(), additional effects can be applied. For example, turning a picture from black and white to color is complemented by a slight slope of the picture and a “wave” effect, when the color gradually fills the picture fr
 							</figcaption>
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/SwlTGn4vP2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<video width="560" height="315" src="./assets/video/custom.mp4" loop="loop"></video>
 						</figure>
 					</section>
 				</section>
 				<section>
 					<section>And some examples of using CSS Shaders on normal HTML content</section>
 					<section>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/TbqTg4yl_2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</section>
-					<section>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/L5QVrMKE5Vk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</section>
-					<section>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/8LXJ-iSDvMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<video width="1120" height="630" src="./assets/video/CSS-shaders.mp4"></video>
 					</section>
 				</section>
 			</div>
@@ -110,6 +103,7 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				autoPlayMedia: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
